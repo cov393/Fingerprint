@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fingerprint.FingerprintPage"
+             BackgroundColor="#22223B"
+             Title="Login Page">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="path_3.png" 
+                   HorizontalOptions="Center"
+                   Grid.Row="1" 
+                   Grid.Column="0"></Image>
+            <Label Text="Sign in with touch ID"  
+                   HorizontalOptions="Center"
+                   Grid.Row="2" 
+                   Grid.Column="0" 
+                   TextColor="#F2E9E4" 
+                   FontSize="20" 
+                   FontFamily="Segoe UI" ></Label>
+            <Image Source="id_help_q.png"
+                   HorizontalOptions="Center"
+                   Grid.Row="2"
+                   Grid.Column="0"></Image>
+            <Button Grid.Row="3"
+                    Grid.Column="0"
+                    TextColor="#22223B"
+                    Text="Login with Email"
+                    FontSize="15"
+                    Margin="30"
+                    WidthRequest="4"
+                    FontFamily="Segoe UI"
+                    BorderRadius="20"
+                    Clicked="Button_Clicked"></Button>
+            <Label Grid.Row="4"
+                   Grid.Column="0"
+                   Text="Need help?"
+                   FontSize="16"
+                   TextColor="#F2E9E4"
+                   FontFamily="Segoe UI"
+				   FontAttributes="Bold"
+                   HorizontalOptions="Center"></Label>
+            <Image Grid.Row="5"
+                   Grid.Column="0"
+                   Margin="-70"
+                   Source="ellipse.png"
+                   Aspect="AspectFill"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"></Image>
+            <Label Grid.Row="5"
+                   Grid.Column="0"
+                   Text="New here?"
+                   FontFamily="Segoe UI"
+				   FontAttributes="Bold"
+				   HorizontalTextAlignment="Center"
+				   FontSize="16"
+				   TextColor="#4a4e69"></Label>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
