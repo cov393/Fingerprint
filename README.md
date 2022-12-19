@@ -13,5 +13,4 @@ Xamarin Android native application
 * reaching the ui design similar as Adobe XD project
 * functional button -> Google Authentorisation Page
 
-![image](https://user-images.githubusercontent.com/74015697/208511557-1eafb20b-a847-475c-af5e-ed1cc1544b1d.png)
-
+![image](https://user-images.githubusercontent.com/74015697/208524386-d6639722-33f8-4d65-9e1e-599c3de86e6d.png)
