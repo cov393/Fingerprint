@@ -12,7 +12,7 @@ namespace Fingerprint
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage( new FingerprintPage());
+            MainPage = new NavigationPage(new FingerprintPage());
         }
 
         protected override void OnStart()
