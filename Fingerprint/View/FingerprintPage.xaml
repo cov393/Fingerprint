@@ -7,11 +7,11 @@
         <Grid>
             <Image Source="path_3.png" 
                    HorizontalOptions="Center"
-                   Grid.Row="1" 
+                   Grid.Row="0" 
                    Grid.Column="0"></Image>
             <Label Text="Sign in with touch ID"  
                    HorizontalOptions="Center"
-                   Grid.Row="2" 
+                   Grid.Row="1" 
                    Grid.Column="0" 
                    TextColor="#F2E9E4" 
                    FontSize="20" 
@@ -38,13 +38,14 @@
                    FontFamily="Segoe UI"
 				   FontAttributes="Bold"
                    HorizontalOptions="Center"></Label>
-            <Image Grid.Row="5"
+            <ImageButton Grid.Row="5"
                    Grid.Column="0"
                    Margin="-70"
                    Source="ellipse.png"
                    Aspect="AspectFill"
                    HorizontalOptions="FillAndExpand"
-                   VerticalOptions="FillAndExpand"></Image>
+                   VerticalOptions="FillAndExpand"
+                   BackgroundColor="#22223B"></ImageButton>
             <Label Grid.Row="5"
                    Grid.Column="0"
                    Text="New here?"
@@ -53,6 +54,15 @@
 				   HorizontalTextAlignment="Center"
 				   FontSize="16"
 				   TextColor="#4a4e69"></Label>
+            <Label Grid.Row="5"
+                   Grid.Column="0"
+                   Text="Sign up"
+                   FontFamily="Segoe UI"
+				   FontAttributes="Bold"
+				   HorizontalTextAlignment="Center"
+				   FontSize="16"
+				   TextColor="#4a4e69"
+                   Padding="15"></Label>
 
         </Grid>
     </ContentPage.Content>
