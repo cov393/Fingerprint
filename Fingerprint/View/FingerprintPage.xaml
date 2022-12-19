@@ -53,7 +53,9 @@
 				   FontAttributes="Bold"
 				   HorizontalTextAlignment="Center"
 				   FontSize="16"
-				   TextColor="#4a4e69"></Label>
+				   TextColor="#4a4e69"
+                   Padding="17"
+                   Margin="1"></Label>
             <Label Grid.Row="5"
                    Grid.Column="0"
                    Text="Sign up"
@@ -62,7 +64,8 @@
 				   HorizontalTextAlignment="Center"
 				   FontSize="16"
 				   TextColor="#4a4e69"
-                   Padding="15"></Label>
+                   Padding="33"
+                   Margin="1"></Label>
 
         </Grid>
     </ContentPage.Content>
