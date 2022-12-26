@@ -5,6 +5,7 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 using Plugin.Fingerprint;
+using Forms.BackgroundVideo.AndroidCore;
 
 namespace Fingerprint.Droid
 {
@@ -14,6 +15,8 @@ namespace Fingerprint.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            Abstractions.Init();
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 

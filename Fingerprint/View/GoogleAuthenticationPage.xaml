@@ -1,12 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Fingerprint.View.GoogleAuthenticationPage">
+             x:Class="Fingerprint.View.GoogleAuthenticationPage"             
+             Title="Google Authorisation Page"
+             Background="#22223B">
+    <!--xmlns:controls="clr-namespace:Xamarin.Forms.BackgroundVideoView;assembly=Xamarin.Forms.BackgroundVideoView"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d-->
+        <!--<controls:BackgroundVideoView Source="BackgroundVideo.mp4" Loop="True"
+                        HorizontalOptions="Fill" VerticalOptions="Fill" >
+            <controls:BackgroundVideoView.ViewContent>
+                <Grid>
+                    <Label Grid.Row="0"
+                           HorizontalOptions="Center"
+                           Text="Google authentication Page"
+                           TextColor="Black">
+                        
+                    </Label>
+                </Grid>
+            </controls:BackgroundVideoView.ViewContent>
+        </controls:BackgroundVideoView>-->
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Google Authorisation Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Image Source="G_Component_2x.png"
+               Grid.Row="0"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"></Image>
+        </Grid>
     </ContentPage.Content>
+
 </ContentPage>
+
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:Xamarin.Forms.BackgroundVideoView;assembly=Xamarin.Forms.BackgroundVideoView"
+             mc:Ignorable="d"
+             x:Class="Fingerprint.View.GoogleAuthenticationPage">
+
+
+    <controls:BackgroundVideoView Source="BackgroundVideo.mp4" Loop="True"
+                        HorizontalOptions="Fill" VerticalOptions="Fill" >
+        <controls:BackgroundVideoView.ViewContent>
+            <Grid RowSpacing="20" VerticalOptions="CenterAndExpand" RowDefinitions="Auto,Auto,Auto">
+                <Entry BackgroundColor="Transparent" Placeholder="Enter Email"/>
+                <Entry Grid.Row="1" BackgroundColor="Transparent" Placeholder="Enter Password"/>
+                <Button Grid.Row="2" BackgroundColor="Blue" TextColor="Wheat" Text="Login"/>
+            </Grid>
+            </controls:BackgroundVideoView.ViewContent>
+    </controls:BackgroundVideoView>
+
+
+</ContentPage>-->

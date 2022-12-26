@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fingerprint.View.View1">
+  <ContentView.Content>
+      <StackLayout>
+          <Label Text="Hello Xamarin.Forms!" />
+      </StackLayout>
+  </ContentView.Content>
+</ContentView>
+
+
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fingerprint.View.GoogleAuthenticationPage"
+             xmlns:controls="clr-namespace:Xamarin.Forms.BackgroundVideoView;assembly=Xamarin.Forms.BackgroundVideoView"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"             
+             Title="Google Authorisation Page">
+
+    <controls:BackgroundVideoView Source="BackgroundVideo.mp4" Loop="True"
+                        HorizontalOptions="Fill" VerticalOptions="Fill" >
+        <controls:BackgroundVideoView.ViewContent>
+            <Grid>
+                <Label Grid.Row="0"
+                           HorizontalOptions="Center"
+                           Text="Google authentication Page"
+                           TextColor="Black">
+
+                </Label>
+            </Grid>
+        </controls:BackgroundVideoView.ViewContent>
+    </controls:BackgroundVideoView>
+
+</ContentPage>-->
